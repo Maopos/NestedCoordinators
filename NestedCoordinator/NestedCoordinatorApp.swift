@@ -11,7 +11,7 @@ import SwiftUI
 struct NestedCoordinatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FruitsCoordinatorView()
         }
     }
 }
