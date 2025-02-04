@@ -32,7 +32,7 @@ enum FruitsCoordinatorSheet: String, Identifiable, View {
         case .pear:
             PearView()
         case .colorsCoordinator:
-            Text("ColorsCoordinator...")
+            ColorsCoordinatorView()
         }
     }
 }

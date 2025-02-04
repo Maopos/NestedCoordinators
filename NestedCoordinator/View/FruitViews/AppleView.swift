@@ -29,7 +29,7 @@ struct AppleView: View {
                 Text("Cover")
             }
             Button {
-                
+                fruitsCoordinator.present(sheet: .colorsCoordinator)
             } label: {
                 Text("Colors")
             }
